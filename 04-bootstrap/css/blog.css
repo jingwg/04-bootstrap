@@ -1,0 +1,37 @@
+section header {
+  background-color: lightgrey;
+}
+/*less than 500px */
+
+/* 
+bg = paleviletred
+if(width > 500){
+  bg = white;
+}
+if(width > 992) {
+  bg = lightgreen
+}
+*/
+@media (max-width: 500px) {
+  body{
+    background-color: palevioletred;
+  }
+}
+
+@media (min-width: 500px) and  (max-width: 992px){
+  body{
+    background-color: white;
+  }
+}
+
+@media (min-width: 992px){
+  body{
+    background-color: lightgreen;
+  }
+}
+
+@media (max-width: 768px){
+  a{
+  background-color: orangered;
+  }
+}
